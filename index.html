@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/2b16c60e8a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2b16c60e8a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Guess Secret Number</title>
   </head>
@@ -31,27 +34,27 @@
         <span class="secret">?</span>
         <span class="response">Enter a Number to start Guessing!</span>
         <div class="middle_container">
-            <div class="left">
-                <img src="./assets/leaderboard.png" alt="Leaderboard icon">
-                <p>HighScore: <span class="highscore">0</span></p>
+          <div class="left">
+            <img src="./assets/leaderboard.png" alt="Leaderboard icon" />
+            <p>HighScore: <span class="highscore">0</span></p>
+          </div>
+          <div class="middle">
+            <input class="guess" type="number" max="20" min="1" />
+            <button class="btn check">Check!</button>
+          </div>
+          <div class="right">
+            <div class="top">
+              <img src="./assets/score.png" alt="Score icon" />
+              <p>Score: <span class="score">20</span></p>
             </div>
-            <div class="middle">
-                <input class="guess" type="number" max="20" min="1"></input>
-                <button class="btn check">Check!</button>
-            </div>
-            <div class="right">
-                <div class="top">
-                    <img src="./assets/score.png" alt="Score icon">
-                    <p>Score: <span class="score">20</span></p>
-                </div>
-                <button class="btn reset">Reset</button>
-
-            </div>
+            <button class="btn reset">Reset</button>
+          </div>
         </div>
       </div>
       <div class="footer">
         <p class="copyright">Copyright © Genesis 2022</p>
       </div>
     </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>

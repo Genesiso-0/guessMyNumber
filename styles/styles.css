@@ -74,23 +74,24 @@ ul a:hover {
   color: #eeeeee;
 }
 .response {
-  font-size: 20px;
+  font-size: 30px;
   color: #222831;
   margin: 20px auto;
   text-align: center;
 }
 .guess {
-  font-size: 70px;
+  font-size: 80px;
   border: 1px solid #393e46;
   margin: 20px auto;
+  text-align: center;
 }
 .btn {
   font-size: 30px;
   padding: 10px;
 }
 .btn:hover {
-  background-color: #00adb5;
-  color: #222831;
+  background-color: #393e46;
+  color: #eeeeee;
   cursor: pointer;
   border: 2px solid #222831;
   border-radius: 5px;
@@ -100,6 +101,7 @@ ul a:hover {
   justify-content: space-around;
   width: 100%;
   align-items: center;
+  margin-right: 40px;
 }
 .middle {
   display: flex;
@@ -160,6 +162,7 @@ ul a:hover {
     display: flex;
     flex-direction: column-reverse;
     gap: 15px;
+    margin-right: 0px;
   }
   .top p,
   .left p {
