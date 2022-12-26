@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/2b16c60e8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Guess Secret Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href="https://github.com/Genesiso-0" target="_blank"
+            ><img src="./assets/android-icon-48x48.png" alt="Genesis Logo"
+          /></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./instructions.html">Instructions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="confused">
+          <img src="./assets/confused.png" alt="Confused Cartoon character" />
+        </div>
+        <p class="intro">Try to Guess my secret Number! Between 1 and 20</p>
+        <span class="secret">?</span>
+        <span class="response">Enter a Number to start Guessing!</span>
+        <div class="middle_container">
+            <div class="left">
+                <img src="./assets/leaderboard.png" alt="Leaderboard icon">
+                <p>HighScore: <span class="highscore">0</span></p>
+            </div>
+            <div class="middle">
+                <input class="guess" type="number" max="20" min="1"></input>
+                <button class="btn check">Check!</button>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <img src="./assets/score.png" alt="Score icon">
+                    <p>Score: <span class="score">20</span></p>
+                </div>
+                <button class="btn reset">Reset</button>
+
+            </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="copyright">Copyright © Genesis 2022</p>
+      </div>
+    </div>
+  </body>
+</html>
