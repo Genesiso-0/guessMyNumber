@@ -127,6 +127,12 @@ ul a:hover {
   align-items: center;
   gap: 20px;
 }
+.score {
+  color: red;
+}
+.highscore {
+  color: #2a4ba7;
+}
 .copyright {
   height: 30px;
   text-align: center;
